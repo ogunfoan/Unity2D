@@ -151,9 +151,10 @@ GameObject:
   - component: {fileID: 225443786107695234}
   - component: {fileID: 6302436906975229904}
   - component: {fileID: 2831141049458286339}
+  - component: {fileID: 4005374885526847132}
   m_Layer: 0
   m_Name: character_zombie_run0
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -322,4 +323,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 3.17
-  ziplamaGucu: 659.9
+  ziplamaGucu: 388.1
+--- !u!114 &4005374885526847132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5365983645698954699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 557ee26422e317a4f82c1fa240bfb99d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ToplamaSesi: {fileID: 8300000, guid: bab484325b28295468a05ddd9eca184e, type: 3}
