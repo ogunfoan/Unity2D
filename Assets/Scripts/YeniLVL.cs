@@ -20,4 +20,9 @@ public class YeniLVL : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void end()
+    {
+        Application.Quit();
+    }
 }
