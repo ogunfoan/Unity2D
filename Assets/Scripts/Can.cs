@@ -19,7 +19,7 @@ public class Can : MonoBehaviour
                 gameObject.transform.GetChild(1).gameObject.SetActive(false);
                 break;
             case 0:
-                SceneManager.LoadScene(4);
+                SceneManager.LoadScene(2);
                 break;
             default:
                 break;

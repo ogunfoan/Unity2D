@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class ZehirSeviyesi : MonoBehaviour
 {
+    private SceneManager _sceneManager;
     private void Awake()
     {
         switch (ToplamVeriler.Eksican)
@@ -13,16 +14,15 @@ public class ZehirSeviyesi : MonoBehaviour
             case 3:
                 break;
             case 2:
-                gameObject.transform.GetChild(2).gameObject.SetActive(true);
+                gameObject.transform.GetChild(2).gameObject.SetActive(false);
                 break;
             case 1:
-                gameObject.transform.GetChild(2).gameObject.SetActive(true);
-                gameObject.transform.GetChild(1).gameObject.SetActive(true);
+                gameObject.transform.GetChild(2).gameObject.SetActive(false);
+                gameObject.transform.GetChild(1).gameObject.SetActive(false);
                 break;
             case 0:
-                SceneManager.LoadScene(4);
+                SceneManager.LoadScene(2);
                 break;
-            
             default:
                 break;
             

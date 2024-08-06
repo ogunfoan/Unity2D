@@ -12,7 +12,7 @@ public class Engeller : MonoBehaviour
         if (other.gameObject.CompareTag("Engel"))
         {
             Destroy(other.gameObject);
-            ToplamVeriler.Eksican++;
+            ToplamVeriler.Can--;
         }
     }
 }

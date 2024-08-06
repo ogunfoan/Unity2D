@@ -7,7 +7,7 @@ using TMPro;
 public class Toplanabilirler : MonoBehaviour
 {
     [SerializeField] private AudioClip ToplamaSesi;
-    [SerializeField] public TextMeshPro _text;
+    [SerializeField] public TextMeshProUGUI _text;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
